@@ -66,7 +66,7 @@ class Dog
     if !dog.empty
       Dog.new(id: dog[0], name: dog[1], breed: dog[2])
     else
-      Dog.create(name:, breed:)
+      Dog.create(name: name, breed: breed)
     end
   end
 end
