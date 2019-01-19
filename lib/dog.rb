@@ -39,4 +39,7 @@ class Dog
     self
   end
 
+  def self.create(hash)
+  end
+
 end
